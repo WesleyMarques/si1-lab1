@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+body{
+cursor : default;
+font-size : 14px;
+line-height : 16px;
+font-family : Tahoma, sans-serif;
+background:highlight;
+background-attachment:fixed;
+background-size:100%;
+}
+
+.divs{
+	z-index: 0;
+	position: static;
+	background-color: menu;
+	width: auto;
+	height: auto;
+	
+}
+
+#titulos{
+	padding-top: 4;
+	z-index: 2;
+	background-color: threedface;
+	width: 150px;
+	height: 50px;
+	margin-top: 0px;
+}
+
