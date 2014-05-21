@@ -10,20 +10,57 @@ background-size:100%;
 }
 
 .divs{
-	z-index: 0;
-	position: static;
+	padding: 15px;
+	position: absolute;
 	background-color: menu;
-	width: auto;
+	width: 30%;
 	height: auto;
+	text-align: justify;
 	
 }
 
-#titulos{
-	padding-top: 4;
-	z-index: 2;
-	background-color: threedface;
-	width: 150px;
+.divs #titulos{
+	padding: 5px;
+	padding-top: 4;	
+	background-color: background;
+	color:#ffffff;
+	width: auto;
 	height: 50px;
-	margin-top: 0px;
+	font-family: cursive;
+	
+}
+
+#titleTop{
+	border-radius: 15px;
+	width: 600px;
+	margin-left: 28%;
+	
+	}
+#oQueEh{
+	margin-top: 150px;
+	margin-left: 50%;
+	
+}	
+#conteudo{
+	margin-top: 150px;
+	margin-left: 15%;
+}
+
+#convencido{
+	margin-top: 400px;
+	width: 50%;
+	margin-left: 25%;
+}
+
+#linkConvenci{
+	background-color:buttonface;
+	width: 200px;
+	padding: 5px;
+	border-radius: 15px;
+	margin-left: 20%;	 
+}
+#linkConvenci a{
+	text-decoration: none;
+	color: red;
 }
 
