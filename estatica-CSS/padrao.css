@@ -20,13 +20,13 @@ background-size:100%;
 }
 
 .divs #titulos{
-	padding: 5px;
-	padding-top: 4;	
+	padding: 5px;	
 	background-color: background;
 	color:#ffffff;
 	width: auto;
 	height: 50px;
 	font-family: cursive;
+	font-size: 4;
 	
 }
 
@@ -62,5 +62,14 @@ background-size:100%;
 #linkConvenci a{
 	text-decoration: none;
 	color: red;
+}
+
+#fim{
+	margin-left: 30%;
+	width: 35%;
+		
+}
+#fim a{
+	text-decoration: none;
 }
 
