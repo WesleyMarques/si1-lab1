@@ -10,7 +10,7 @@ function Adicionar() {
 							+ valor
 							+ "</td>"
 							+ "<td><img src='imagens/delete.png' class='btnExcluir' width='25px' title='Excluir'>"
-							+ " <img src='imagens/toRight.jpg' class='btnAlterar' width='25px' title='J&aacute aprendi'/></td>"
+							+ " <img src='imagens/alterar.png' class='btnAlterar' width='25px' title='Alterar'/></td>"
 							+ "</tr>");
 
 	$(".btnExcluir").bind("click", Excluir);
@@ -26,7 +26,6 @@ function Alterar1() {
 
 function Alterar2() {
 	var valor = $(this).parent().parent();
-	valor.(".btnAlterar").attr("src", "imagens/toLeft.jpg");
 	$("#tblCadastro2 tbody").append(valor);
 	$(".btnExcluir").bind("click", Excluir);
 	$(".btnAlterar").bind("click", Alterar1);
