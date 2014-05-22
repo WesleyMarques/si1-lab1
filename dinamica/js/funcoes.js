@@ -19,13 +19,14 @@ function Adicionar() {
 
 function Alterar1() {
 	var valor = $(this).parent().parent();
-	$("#tblCadastro1 tbody").append(valor);
+	$("#tblCadastro1 tbody").append(valor);	
 	$(".btnExcluir").bind("click", Excluir);
 	$(".btnAlterar").bind("click", Alterar2);
 };
 
 function Alterar2() {
 	var valor = $(this).parent().parent();
+	valor.(".btnAlterar").attr("src", "imagens/toLeft.jpg");
 	$("#tblCadastro2 tbody").append(valor);
 	$(".btnExcluir").bind("click", Excluir);
 	$(".btnAlterar").bind("click", Alterar1);
