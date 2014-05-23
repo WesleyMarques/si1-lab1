@@ -1,2 +1,2 @@
-#Repositório destinado aos código do Lab1 de SI1
-#Alteração clone 2
+#Repositorio destinado aos codigo do Lab1 de SI1
+#Alteracao clone 2 fim
